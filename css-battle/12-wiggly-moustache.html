@@ -1,0 +1,52 @@
+<div></div>
+<div></div>
+<div></div>
+<style>
+  :root {
+    --lineWidth: 20px;
+    --halfRadius: 60px;
+  }
+  body {
+    margin: 0;
+    background-color: #F5D6B4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div {
+    margin: calc(var(--halfRadius) / 2 + var(--lineWidth)) calc(var(--lineWidth) / -2) 0;
+    border-bottom: var(--lineWidth) solid #D86F45;
+    border-left: var(--lineWidth) solid #D86F45;
+    border-right: var(--lineWidth) solid #D86F45;
+    width: var(--halfRadius);
+    height: calc(var(--halfRadius) / 2);
+    border-radius: 0 0 var(--halfRadius) var(--halfRadius);
+    position: relative;
+  }
+  div:nth-child(even) {
+    margin: 0 calc(var(--lineWidth) / -2) calc(var(--halfRadius) / 2 + var(--lineWidth));
+    border-top: var(--lineWidth) solid #D86F45;
+    border-bottom: 0;
+    border-radius: var(--halfRadius) var(--halfRadius) 0 0;
+  }
+  div:first-child:before {
+    content: '';
+    width: var(--lineWidth);
+    height: calc(var(--lineWidth) / 1.5);
+    background-color: #D86F45;
+    position: absolute;
+    top: calc(var(--lineWidth) / -2);
+    left: calc(var(--lineWidth) * -1);
+    border-radius: calc(var(--lineWidth) * 2) calc(var(--lineWidth) * 2) 0 0;
+  }
+  div:nth-child(odd):after {
+    content: '';
+    width: var(--lineWidth);
+    height: calc(var(--lineWidth) / 1.5);
+    background-color: #D86F45;
+    position: absolute;
+    top: calc(var(--lineWidth) / -2);
+    right: calc(var(--lineWidth) * -1);
+    border-radius: calc(var(--lineWidth) * 2) calc(var(--lineWidth) * 2) 0 0;
+  }
+</style>

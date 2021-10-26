@@ -1,0 +1,56 @@
+<div class="container">
+	<div></div>
+</div>
+<style>
+  :root {
+    --size: 140px;
+    --line: #ECA03D;
+  }
+  body {
+    margin: 0;
+    background-color: #191210;
+  }
+  body, .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    position: relative;
+    background-color: var(--line);
+    width: var(--size);
+    height: var(--size);
+    border-radius: 100%;
+  }
+  .container > div {
+    background-color: #84271C;
+    border: calc(var(--size) / 5.6) solid #191210;
+    width: calc(var(--size) / 2.8);
+    height: calc(var(--size) / 2.8);
+    border-radius: 100%;
+  }
+  .container > div:before {
+    content: '';
+    position: absolute;
+    border-bottom: calc(var(--size) / 7) solid var(--line);
+    border-left: calc(var(--size) / 7) solid var(--line);
+    border-right: calc(var(--size) / 7) solid var(--line);
+    width: calc(var(--size) / 2.3);
+    height: calc(var(--size) / 4.6);
+    bottom: calc(var(--size) / 7);
+    left: calc(var(--size) * -.575);
+    border-radius: 0 0 calc(var(--size) / 2) calc(var(--size) / 2);
+  }
+  .container > div:after {
+    content: '';
+    position: absolute;
+    border-top: calc(var(--size) / 7) solid var(--line);
+    border-left: calc(var(--size) / 7) solid var(--line);
+    border-right: calc(var(--size) / 7) solid var(--line);
+    width: calc(var(--size) / 2.3);
+    height: calc(var(--size) / 4.6);
+    top: calc(var(--size) / 7);
+    right: calc(var(--size) * -.575);
+    border-radius: calc(var(--size) / 2) calc(var(--size) / 2) 0 0;
+  }
+</style>

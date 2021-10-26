@@ -1,0 +1,58 @@
+<div>
+    <div class="tip">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="base">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="grip"></div>
+</div>
+<style>
+    body {
+      margin: 0;
+      background-color: #6592CF;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+    body > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .tip > div {
+      background-color: #060F55;
+      width: 20px;
+      height: 20px;
+      border-radius: 30px 30px 0 0;
+      margin-left: 20px;
+      float: left;
+    }
+    .tip > div:first-child {
+      margin-left: 0;
+    }
+    .base {
+      background-color: #060F55;
+      width: 140px;
+      height: 180px;
+      border-radius: 0 0 70px 70px;
+    }
+    .base > div {
+      background-color: #6592CF;
+      margin-left: 20px;
+      height: 90px;
+      width: 20px;
+      float: left;
+      border-radius: 0 0 20px 20px;
+    }
+    .grip {
+      background-color: #060F55;
+      width: 20px;
+      height: 50px;
+    }
+</style>

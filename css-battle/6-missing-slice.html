@@ -1,0 +1,38 @@
+<div>
+	<div></div>
+	<div></div>
+	<div></div>
+</div>
+<style>
+  :root {
+    --size: 100px;
+  }
+  body {
+    margin: 0;
+    background-color: #E3516E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div {
+    width: calc(var(--size) * 2);
+  }
+  div > div {
+    width: var(--size);
+    height: var(--size);
+    float: left;
+  }
+  div > div:nth-child(1) {
+    background-color: #51B5A9;
+    border-radius: 100% 0 0 0;
+  }
+  div > div:nth-child(2) {
+    background-color: #FADE8B;
+    border-radius: 0 100% 0 0;
+  }
+  div > div:nth-child(3) {
+    background-color: #F7F3D7;
+    border-radius: 0 0 0 100%;
+    margin-right: var(--size);
+  }
+</style>

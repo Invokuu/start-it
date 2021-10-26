@@ -1,0 +1,40 @@
+<div>
+    <div></div>
+</div>
+<div>
+    <div></div>
+</div>
+<div>
+    <div></div>
+</div>
+<style>
+    :root {
+      --size: 60px;
+    }
+    body {
+      margin: 0;
+      background-color: #62306D;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+    div {
+      background-color: #F7EC7D;
+      border-radius: var(--size) var(--size) 0 0;
+      height: 150px;
+    }
+    div > div {
+      background-color: #E38F66;
+      border: 20px solid #AA445F;
+      width: var(--size);
+      height: var(--size);
+      border-radius: 100%;
+    }
+    div:nth-child(even) {
+      height: 250px;
+    }
+    div:nth-child(even) > div {
+      background-color: #AA445F;
+      border-color: #E38F66;
+    }
+</style>

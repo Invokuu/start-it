@@ -1,0 +1,36 @@
+<div>
+	<div>
+		<div></div>
+  	</div>
+</div>
+<style>
+  :root {
+    --size: 150px;
+    --radius: 67%;
+  }
+  body {
+    margin: 0;
+    background-color: #0B2429;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  div {
+    background-color: #1A4341;
+    width: var(--size);
+    height: var(--size);
+    border-radius: var(--radius) 0 var(--radius) 0;
+  }
+  body > div {
+    margin: 0 calc(var(--size)/ 3 * 2) 0 0;
+  }
+  div > div {
+    position: relative;
+    left: calc(var(--size) / 3);
+    background-color: #998235;
+  }
+  div > div > div {
+    background-color: #F3AC3C;
+  }
+</style>
