@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.snowman {
+  width: 300px;
+  height: 550px;
+}
+
+.snowman circle.ball {
+  fill: white;
+  stroke: lightgrey;
+  stroke-width: 3px;
+}
+
+.snowman line {
+  stroke: brown;
+  stroke-width: 7px;
+}
+
+.snowman rect.hat {
+  width: 150px;
+  height: 70px;
+  fill: grey;
+}
+
+.snowman polyline.hat {
+  stroke: grey;
+  stroke-width: 7px;
+  fill: transparent;
+}
+
+.snowman polyline.mouth {
+  fill: white;
+  stroke: black;
+  stroke-width: 5px;
+}
+
+.snowman polygon.nose {
+  fill: orange;
+}
+
+.snowman circle.btn {
+  fill: black;
+}
