@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2e3136;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #424549;
+  color: white;
+  font-family: sans-serif;
+  padding: 30px;
+  border-radius: 3px;
+  min-width: 300px;
+  width: 50vw;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px 15px;
+  background-color: #7289da;
+  margin: 5px 0;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.wrong {
+  color: #f04747;
+}
+
+.right {
+  color: #43b581;
+}
