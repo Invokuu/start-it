@@ -11,7 +11,7 @@ I've listed the tasks below as demos in the order I've done them.
    1. [Simply Square](https://invokuu.github.io/modul1/css-battle/1-simply-square.html)
    2. [Carrom](https://invokuu.github.io/modul1/css-battle/2-carrom.html)
    3. [Push Button](https://invokuu.github.io/modul1/css-battle/3-push-button.html)
-   4. [Ups and Downs](https://invokuu.github.io/modul1/css-battle/4-ups-and-downs.html)
+   4. [Ups and Downs](https://invokuu.github.io/modul1/css-battle/4-ups-n-downs.html)
    5. [Acid Rain](https://invokuu.github.io/modul1/css-battle/5-acid-rain.html)
    6. [Missing Slice](https://invokuu.github.io/modul1/css-battle/6-missing-slice.html)
    7. [Leafy Trail](https://invokuu.github.io/modul1/css-battle/7-leafy-trail.html)
