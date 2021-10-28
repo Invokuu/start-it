@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS EventHandlers</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <div class="container">
+        <p>Check console by clicking <code>F12</code> on your keyboard.</p>
+        <ul id="output"></ul>
+        <input id="interactable" type="text" placeholder="Interact with this! Current listeners: oninput, onkeyup, onkeydown, onchange, ondblclick, oncontextmenu."
+            oninput="log('oninput');"
+            onkeyup="log('onkeyup');"
+            onkeydown="log('onkeydown');"
+            onchange="log('onchange');"
+            ondblclick="log('ondblclick');"
+            oncontextmenu="log('oncontextmenu', event);"/>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
