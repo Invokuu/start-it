@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Ludo</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <svg class="ludo" viewbox="0 0 810 810">
+        <!-- Outer frame -->
+        <rect class="board"/>
+        <!-- Big tiles -->
+        <rect class="big" x="30" y="30"/>
+        <rect class="big" x="480" y="30"/>
+        <rect class="big" x="30" y="480"/>
+        <rect class="big" x="480" y="480"/>
+        <!-- Big circles -->
+        <circle class="blue" cx="180" cy="180" r="100"/>
+        <circle class="red" cx="630" cy="180" r="100"/>
+        <circle class="yellow" cx="180" cy="630" r="100"/>
+        <circle class="green" cx="630" cy="630" r="100"/>
+        <!-- Small circles -->
+        <circle cx="140" cy="140" r="25"/>
+        <circle cx="220" cy="140" r="25"/>
+        <circle cx="140" cy="220" r="25"/>
+        <circle cx="220" cy="220" r="25"/>
+        <circle cx="590" cy="140" r="25"/>
+        <circle cx="670" cy="140" r="25"/>
+        <circle cx="590" cy="220" r="25"/>
+        <circle cx="670" cy="220" r="25"/>
+        <circle cx="140" cy="590" r="25"/>
+        <circle cx="220" cy="590" r="25"/>
+        <circle cx="140" cy="670" r="25"/>
+        <circle cx="220" cy="670" r="25"/>
+        <circle cx="590" cy="590" r="25"/>
+        <circle cx="670" cy="590" r="25"/>
+        <circle cx="590" cy="670" r="25"/>
+        <circle cx="670" cy="670" r="25"/>
+        <!-- Top tiles -->
+        <rect x="330" y="30"/>
+        <rect x="380" y="30"/>
+        <rect x="430" y="30"/>
+        <rect x="330" y="80"/>
+        <rect class="red" x="380" y="80"/>
+        <rect class="red" x="430" y="80"/>
+        <rect x="330" y="130"/>
+        <rect class="red" x="380" y="130"/>
+        <rect x="430" y="130"/>
+        <rect x="330" y="180"/>
+        <rect class="red" x="380" y="180"/>
+        <rect x="430" y="180"/>
+        <rect x="330" y="230"/>
+        <rect class="red" x="380" y="230"/>
+        <rect x="430" y="230"/>
+        <rect x="330" y="280"/>
+        <rect class="red" x="380" y="280"/>
+        <rect x="430" y="280"/>
+        <!-- Left tiles -->
+        <rect x="30" y="330"/>
+        <rect class="blue" x="80" y="330"/>
+        <rect x="130" y="330"/>
+        <rect x="180" y="330"/>
+        <rect x="230" y="330"/>
+        <rect x="280" y="330"/>
+        <rect x="30" y="380"/>
+        <rect class="blue" x="80" y="380"/>
+        <rect class="blue" x="130" y="380"/>
+        <rect class="blue" x="180" y="380"/>
+        <rect class="blue" x="230" y="380"/>
+        <rect class="blue" x="280" y="380"/>
+        <rect x="30" y="430"/>
+        <rect x="80" y="430"/>
+        <rect x="130" y="430"/>
+        <rect x="180" y="430"/>
+        <rect x="230" y="430"/>
+        <rect x="280" y="430"/>
+        <!-- Right tiles -->
+        <rect x="480" y="330"/>
+        <rect x="530" y="330"/>
+        <rect x="580" y="330"/>
+        <rect x="630" y="330"/>
+        <rect x="680" y="330"/>
+        <rect x="730" y="330"/>
+        <rect class="green" x="480" y="380"/>
+        <rect class="green" x="530" y="380"/>
+        <rect class="green" x="580" y="380"/>
+        <rect class="green" x="630" y="380"/>
+        <rect class="green" x="680" y="380"/>
+        <rect x="730" y="380"/>
+        <rect x="480" y="430"/>
+        <rect x="530" y="430"/>
+        <rect x="580" y="430"/>
+        <rect x="630" y="430"/>
+        <rect class="green" x="680" y="430"/>
+        <rect x="730" y="430"/>
+        <!-- Bottom tiles -->
+        <rect x="330" y="480"/>
+        <rect class="yellow" x="380" y="480"/>
+        <rect x="430" y="480"/>
+        <rect x="330" y="530"/>
+        <rect class="yellow" x="380" y="530"/>
+        <rect x="430" y="530"/>
+        <rect x="330" y="580"/>
+        <rect class="yellow" x="380" y="580"/>
+        <rect x="430" y="580"/>
+        <rect x="330" y="630"/>
+        <rect class="yellow" x="380" y="630"/>
+        <rect x="430" y="630"/>
+        <rect class="yellow" x="330" y="680"/>
+        <rect class="yellow" x="380" y="680"/>
+        <rect x="430" y="680"/>
+        <rect x="330" y="730"/>
+        <rect x="380" y="730"/>
+        <rect x="430" y="730"/>
+        <!-- Arrows -->
+        <polygon points="455,120 465,105 460,105 460,90 450,90 450,105 445,105"/>
+        <polygon points="120,355 105,345 105,350 90,350 90,360 105,360 105,365"/>
+        <polygon points="690,455 705,445 705,450 720,450 720,460 705,460 705,465"/>
+        <polygon points="355,690 365,705 360,705 360,720 350,720 350,705 345,705"/>
+        <!-- Center triangles -->
+        <polygon class="triangle red" points="330,330 480,330 405,405"/>
+        <polygon class="triangle blue" points="330,330 330,480 405,405"/>
+        <polygon class="triangle green" points="480,330 480,480 405,405"/>
+        <polygon class="triangle yellow" points="330,480 480,480 405,405"/>
+    </svg>
+</body>
+</html>

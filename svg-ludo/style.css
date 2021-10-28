@@ -1,0 +1,75 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgb(50, 50, 50);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ludo {
+  height: 95vh;
+}
+
+.ludo rect {
+  width: 50px;
+  height: 50px;
+  fill: white;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+.ludo rect.board {
+  width: 810px;
+  height: 810px;
+  fill: rgb(235, 185, 123);
+}
+
+.ludo rect.big {
+  width: 300px;
+  height: 300px;
+  fill: transparent;
+}
+
+.ludo circle {
+  fill: white;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+.ludo polygon {
+  fill: white;
+}
+
+.ludo polygon.triangle {
+  stroke: black;
+  stroke-width: 2px;
+}
+
+.ludo .red {
+  fill: red;
+}
+
+.ludo .blue {
+  fill: blue;
+}
+
+.ludo .green {
+  fill: green;
+}
+
+.ludo .yellow {
+  fill: yellow;
+}
+
+/* Change units if different orientation */
+@media only screen and (orientation: portrait) {
+  .ludo {
+    height: 95vw;
+  }
+}
