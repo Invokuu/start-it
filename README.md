@@ -27,6 +27,7 @@ I've listed the tasks below as demos in the order I've done them.
 7. [js-practice](https://invokuu.github.io/modul1/js-practice/)
 8. [js-onclick](https://invokuu.github.io/modul1/js-onclick/)
 9. [js-eventhandlers](https://invokuu.github.io/modul1/js-eventhandlers/)
+10. [js-this](https://invokuu.github.io/modul1/js-this/)
 
 [comment]: # "parse.stop"
 
