@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Element Manipulator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="output"></div>
+        <div class="controls">
+            <label for="text-input">Text content</label>
+            <input id="text-input" type="text" value="Hello World" oninput="showDiv();"/>
+            <label for="size-input">Box size</label>
+            <input id="size-input" type="range" min="100" max="500" step="10" oninput="showDiv();"/>
+            <label for="color-input">Box color</label>
+            <select id="color-input" onchange="showDiv();">
+                <option value="#f04747">Red</option>
+                <option value="#43b581" selected>Green</option>
+                <option value="#7289da">Blue</option>
+                <option value="black">Black</option>
+                <option value="white">White</option>
+            </select>
+            <label for="text-color-input">Text color</label>
+            <select id="text-color-input" onchange="showDiv();">
+                <option value="#f04747">Red</option>
+                <option value="#43b581">Green</option>
+                <option value="#7289da">Blue</option>
+                <option value="black">Black</option>
+                <option value="white" selected>White</option>
+            </select>
+            <label for="border-input">Border color</label>
+            <select id="border-input" onchange="showDiv();">
+                <option value="3px solid #f04747">Red</option>
+                <option value="3px solid #43b581">Green</option>
+                <option value="3px solid #7289da">Blue</option>
+                <option value="3px solid black">Black</option>
+                <option value="3px solid white">White</option>
+                <option value="none" selected>None</option>
+            </select>
+            <label for="radius-input">Box radius</label>
+            <input id="radius-input" type="range" min="0" max="100" step="10" oninput="showDiv();"/>
+            <label for="radius-input">Skew box</label>
+            <input id="skew-input" type="range" min="0" max="180" step="10" value="0" oninput="showDiv();"/>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
