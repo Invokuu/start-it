@@ -26,8 +26,9 @@ I've listed the tasks below as demos in the order I've done them.
 6. [svg-ludo](https://invokuu.github.io/modul1/svg-ludo/)
 7. [js-practice](https://invokuu.github.io/modul1/js-practice/)
 8. [js-onclick](https://invokuu.github.io/modul1/js-onclick/)
-9. [js-eventhandlers](https://invokuu.github.io/modul1/js-eventhandlers/)
+9. [js-event-handlers](https://invokuu.github.io/modul1/js-event-handlers/)
 10. [js-this](https://invokuu.github.io/modul1/js-this/)
+11. [js-code-lock](https://invokuu.github.io/modul1/js-code-lock/)
 
 [comment]: # "parse.stop"
 
