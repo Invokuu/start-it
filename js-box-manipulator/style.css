@@ -1,0 +1,61 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2e3136;
+  min-height: 100vh;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 20px;
+  background-color: #424549;
+  border-radius: 5px;
+  display: grid;
+  grid-template: 500px / 500px 1fr;
+  width: 70vw;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+#output {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#output > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+label:not(:first-child) {
+  margin-top: 10px;
+}
+
+input[type="text"],
+select {
+  border-radius: 3px;
+  border: none;
+  outline: #7289da;
+  padding: 10px 15px;
+}
+
+input[type="range"] {
+  margin: 10px 0;
+}

@@ -29,8 +29,9 @@ I've listed the tasks below as demos in the order I've done them.
 9. [js-event-handlers](https://invokuu.github.io/modul1/js-event-handlers/) (Moodle ID: 360)
 10. [js-this](https://invokuu.github.io/modul1/js-this/) (Moodle ID: 361)
 11. [js-code-lock](https://invokuu.github.io/modul1/js-code-lock/) (Moodle ID: 362)
-12. [js-time-check](https://invokuu.github.io/modul1/js-time-check) (Moodle ID: 363)
-13. [js-element-manipulator](https://invokuu.github.io/modul1/js-element-manipulator) (Moodle ID: 364)
+12. [js-time-check](https://invokuu.github.io/modul1/js-time-check/) (Moodle ID: 363)
+13. [js-box-manipulator](https://invokuu.github.io/modul1/js-box-manipulator/) (Moodle ID: 364)
+14. [js-box-size](https://invokuu.github.io/modul1/js-box-size) (Moodle ID: 365)
 
 [comment]: # "parse.stop"
 

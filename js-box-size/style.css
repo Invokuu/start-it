@@ -19,8 +19,7 @@ body {
   background-color: #424549;
   border-radius: 5px;
   display: grid;
-  grid-template: 1fr / 500px 1fr;
-  width: 70vw;
+  grid-template: repeat(2, 1fr) 1000px / repeat(2, 500px);
 }
 
 .controls {
@@ -30,33 +29,27 @@ body {
 }
 
 #output {
-  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
+  grid-column: 1 / span 2;
 }
 
 #output > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  box-sizing: border-box;
   transition: all 0.3s;
-}
-
-label:not(:first-child) {
-  margin-top: 10px;
-}
-
-input[type="text"],
-select {
-  border-radius: 3px;
-  border: none;
-  outline: #7289da;
-  padding: 10px 15px;
+  background-color: #7289da;
+  border-radius: 5px;
 }
 
 input[type="range"] {
   margin: 10px 0;
+}
+
+.display {
+  background-color: #43b581;
+  margin: 10px 5px;
+  border-radius: 5px;
+  position: flex;
+  align-items: center;
+  justify-content: center;
 }

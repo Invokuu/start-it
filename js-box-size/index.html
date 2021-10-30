@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Box Size</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <label for="width-input">Width</label>
+            <input id="width-input" type="range" min="0" max="1000" step="10" oninput="showDiv();"/>
+        </div>
+        <div class="controls">
+            <label for="height-input">Height</label>
+            <input id="height-input" type="range" min="0" max="1000" step="10" oninput="showDiv();"/>
+        </div>
+        <div class="controls display">
+            <div>Box area (areal): <span id="area"></span>px</div>
+        </div>
+        <div class="controls display">
+            <div>Box circumference (omkrets): <span id="circumference"></span>px</div>
+        </div>
+        <div id="output"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
