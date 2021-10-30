@@ -20,15 +20,16 @@ I've listed the tasks below as demos in the order I've done them.
    10. [Cloaked Spirits](https://invokuu.github.io/modul1/css-battle/10-cloaked-spirits.html)
    11. [Eye of Sauron](https://invokuu.github.io/modul1/css-battle/11-eye-of-sauron.html)
    12. [Wiggly Moustache](https://invokuu.github.io/modul1/css-battle/12-wiggly-moustache.html)
-3. [css-grid-example](https://invokuu.github.io/modul1/css-grid-example/)
+3. [css-grid-example](https://invokuu.github.io/modul1/css-grid-example/) (Moodle ID: 357)
 4. [html-practice](https://invokuu.github.io/modul1/html-practice/)
-5. [svg-snowman](https://invokuu.github.io/modul1/svg-snowman/)
-6. [svg-ludo](https://invokuu.github.io/modul1/svg-ludo/)
+5. [svg-snowman](https://invokuu.github.io/modul1/svg-snowman/) (Moodle ID: 358)
+6. [svg-ludo](https://invokuu.github.io/modul1/svg-ludo/) (Moodle ID: 358)
 7. [js-practice](https://invokuu.github.io/modul1/js-practice/)
-8. [js-onclick](https://invokuu.github.io/modul1/js-onclick/)
-9. [js-event-handlers](https://invokuu.github.io/modul1/js-event-handlers/)
-10. [js-this](https://invokuu.github.io/modul1/js-this/)
-11. [js-code-lock](https://invokuu.github.io/modul1/js-code-lock/)
+8. [js-onclick](https://invokuu.github.io/modul1/js-onclick/) (Moodle ID: 359)
+9. [js-event-handlers](https://invokuu.github.io/modul1/js-event-handlers/) (Moodle ID: 360)
+10. [js-this](https://invokuu.github.io/modul1/js-this/) (Moodle ID: 361)
+11. [js-code-lock](https://invokuu.github.io/modul1/js-code-lock/) (Moodle ID: 362)
+12. [js-time-check](https://invokuu.github.io/modul1/js-time-check) (Moodle ID: 363)
 
 [comment]: # "parse.stop"
 
