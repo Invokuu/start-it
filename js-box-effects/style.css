@@ -1,0 +1,112 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2e3136;
+  min-height: 100vh;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 20px;
+  background-color: #424549;
+  border-radius: 5px;
+  display: grid;
+  grid-template: 3rem 200px 1fr / repeat(3, 200px);
+}
+
+.box {
+  background-color: #7289da;
+  margin: 10px;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.box,
+.box p {
+  transition: all 0.3s;
+}
+
+.background {
+  background-color: #43b581;
+}
+
+.text {
+  color: #f04747;
+  font-family: monospace;
+  font-size: 2.5em;
+}
+
+.border {
+  border: 3px dotted #faa61a;
+}
+
+.shadow {
+  box-shadow: inset 0 0 7px #36393e;
+}
+
+.transform {
+  transform: skewX(-10deg);
+}
+
+.transform p {
+  transform: rotate(180deg);
+}
+
+.circle {
+  margin: 20px;
+  border-radius: 100%;
+}
+
+.controls {
+  grid-column: 1 / span 3;
+  border: 2px solid #99aab5;
+  z-index: 10;
+  background-color: #4a4c51;
+  border-radius: 5px;
+  padding: 10px;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+}
+
+.controls div {
+  padding: 5px 15px;
+}
+
+.box::after {
+  content: "";
+  position: absolute;
+  background-color: #99aab5;
+  width: 0;
+  height: 0;
+  bottom: -50px;
+  transform: rotate(45deg);
+  box-shadow: 0 0 3px #36393e;
+  transition: width 0.3s, height 0.3s;
+  cursor: default;
+}
+
+.selected {
+  cursor: default;
+}
+
+.selected::after {
+  width: 50px;
+  height: 50px;
+}
+
+.info {
+  text-align: center;
+  grid-column: 1 / span 3;
+}

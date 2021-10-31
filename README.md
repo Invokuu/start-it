@@ -33,6 +33,7 @@ I've listed the tasks below as demos in the order I've done them.
 13. [js-box-manipulator](https://invokuu.github.io/modul1/js-box-manipulator/) (Moodle ID: 364)
 14. [js-box-size](https://invokuu.github.io/modul1/js-box-size/) (Moodle ID: 365)
 15. [js-random-size](https://invokuu.github.io/modul1/js-random-size/) (Moodle ID: 366)
+16. [js-box-effects](https://invokuu.github.io/modul1/js-box-effects/) (Moodle ID: 367)
 
 [comment]: # "parse.stop"
 
