@@ -1,0 +1,85 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2e3136;
+  min-height: 100vh;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 20px;
+  background-color: #424549;
+  transition: background-color 0.5s;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 5px #1e2124;
+}
+
+input[type="text"] {
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 400px;
+  border: none;
+  font-size: 1.2em;
+  font-family: inherit;
+}
+
+.success {
+  background-color: #43b581;
+  animation: success 1s linear 0s 1 normal;
+}
+
+.failure {
+  animation: failure 1s linear 0s 1 normal;
+}
+
+@keyframes success {
+  0% {
+    background-color: #424549;
+  }
+  20% {
+    background-color: #43b581;
+    transform: rotate3d(0);
+  }
+  30% {
+    transform: rotate3d(1, 0, 0, 20deg);
+  }
+  70% {
+    transform: rotate3d(1, 0, 0, -20deg);
+  }
+  80% {
+    background-color: #43b581;
+    transform: rotate3d(0);
+  }
+}
+
+@keyframes failure {
+  0% {
+    background-color: #424549;
+  }
+  20% {
+    background-color: #f04747;
+    transform: rotate3d(0);
+  }
+  30% {
+    transform: rotate3d(0, 1, 0, 20deg);
+  }
+  70% {
+    transform: rotate3d(0, 1, 0, -20deg);
+  }
+  80% {
+    background-color: #f04747;
+    transform: rotate3d(0);
+  }
+  100% {
+    background-color: #424549;
+  }
+}
