@@ -1,12 +1,12 @@
 const app = document.getElementById('app');
 // Model
-let answer, response = 'Hint: A snack';
+let answer = '', response = 'Hint: A snack';
 
 // View
 function render() {
     app.innerHTML = `
     <h2>Guess the word!</h2>
-    <input type="text" onchange="answer = this.value;" oninput="clearClasses();" autofocus/>
+    <input type="text" onchange="answer = this.value;" oninput="clearClasses();" value="${answer}" autofocus/>
     <button onclick="compare();">Check</button>
     <h4>${response}</h4>`;
 }
