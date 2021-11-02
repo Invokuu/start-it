@@ -4,13 +4,13 @@ body {
   padding: 0;
 }
 body {
-  background-color: rgb(25, 25, 25);
+  background-color: #2e3136;
   font-family: sans-serif;
   color: white;
   height: 100vh;
 }
 div {
-  background-color: rgb(50, 50, 50);
+  background-color: #424549;
   padding: 10px;
   width: 300px;
   flex-direction: column;
