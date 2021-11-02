@@ -21,12 +21,14 @@ body {
   border-radius: 5px;
   text-align: center;
   box-shadow: 0 0 5px #1e2124;
+  width: 400px;
+  display: grid;
+  grid-template: repeat(3, auto) / 1fr;
 }
 
 input[type="text"] {
   padding: 10px 20px;
   border-radius: 5px;
-  width: 400px;
   border: none;
   font-size: 1.2em;
   font-family: inherit;

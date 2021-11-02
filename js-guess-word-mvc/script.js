@@ -1,11 +1,14 @@
 const app = document.getElementById('app');
-let answer = 'Hint: A snack';
+// Model
+let answer, response = 'Hint: A snack';
 
+// View
 function render() {
     app.innerHTML = `
     <h2>Guess the word!</h2>
-    <input type="text" onchange="compare(this.value);" oninput="clearClasses();"/>
-    <h4>${answer}</h4>`;
+    <input type="text" onchange="answer = this.value;" oninput="clearClasses();" autofocus/>
+    <button onclick="compare();">Check</button>
+    <h4>${response}</h4>`;
 }
 
 function clearClasses() {
@@ -13,16 +16,17 @@ function clearClasses() {
     app.classList.remove('failure');
 }
 
-function compare(value) {
-    if (value.length < 1) return;
-    if (value.toLowerCase() === 'chocolate') {
+// Controller
+function compare() {
+    if (answer.length < 1) return;
+    if (answer.toLowerCase() === 'chocolate') {
         app.classList.add('success');
-        answer = 'That is the correct answer!';
+        response = 'That is the correct answer!';
         render();
         return;
     }
     app.classList.add('failure');
-    answer = 'That is the wrong answer!';
+    response = 'That is the wrong answer!';
     render();
 }
 
