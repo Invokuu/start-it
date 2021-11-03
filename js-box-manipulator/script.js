@@ -1,4 +1,5 @@
 let output = document.getElementById('output'),
+    textOutput = document.getElementById('text-output'),
     textInput = document.getElementById('text-input'),
     sizeInput = document.getElementById('size-input'),
     colorInput = document.getElementById('color-input'),
@@ -7,7 +8,7 @@ let output = document.getElementById('output'),
     radiusInput = document.getElementById('radius-input');
     skewInput = document.getElementById('skew-input');
 
-function showDiv() {
+function render() {
     output.innerHTML = `<div style="
     width: ${sizeInput.value}px;
     height: ${sizeInput.value}px;
@@ -17,6 +18,7 @@ function showDiv() {
     border-radius: ${radiusInput.value}px;
     transform: skew(${skewInput.value}deg);
     "><div>${textInput.value}</div></div>`;
+    textOutput.innerText = output.innerHTML.replaceAll('\n', '');
 }
 
-showDiv();
+render();

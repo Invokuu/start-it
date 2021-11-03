@@ -12,6 +12,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .container {
@@ -19,7 +20,7 @@ body {
   background-color: #424549;
   border-radius: 5px;
   display: grid;
-  grid-template: 500px / 500px 1fr;
+  grid-template: auto / 500px 1fr;
   width: 70vw;
 }
 
@@ -58,4 +59,11 @@ select {
 
 input[type="range"] {
   margin: 10px 0;
+}
+
+.code {
+  background-color: #4a4c51;
+  padding: 5px;
+  border-radius: 5px;
+  color: #faa61a;
 }

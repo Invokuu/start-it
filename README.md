@@ -37,6 +37,7 @@ I've listed the tasks below as demos in the order I've done them.
 17. [js-random-boxes](https://invokuu.github.io/modul1/js-random-boxes/) (Moodle ID: 376)
 18. [js-guess-word](https://invokuu.github.io/modul1/js-guess-word/)
 19. [js-guess-word-mvc](https://invokuu.github.io/modul1/js-guess-word-mvc/)
+20. [js-clicker-game](https://invokuu.github.io/modul1/js-clicker-game/) (Moodle ID: 420)
 
 [comment]: # "parse.stop"
 

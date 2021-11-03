@@ -12,11 +12,11 @@
         <div id="output"></div>
         <div class="controls">
             <label for="text-input">Text content</label>
-            <input id="text-input" type="text" value="Hello World" oninput="showDiv();"/>
+            <input id="text-input" type="text" value="Hello World" oninput="render();"/>
             <label for="size-input">Box size</label>
-            <input id="size-input" type="range" min="100" max="500" step="10" oninput="showDiv();"/>
+            <input id="size-input" type="range" min="100" max="500" step="10" oninput="render();"/>
             <label for="color-input">Box color</label>
-            <select id="color-input" onchange="showDiv();">
+            <select id="color-input" onchange="render();">
                 <option value="#f04747">Red</option>
                 <option value="#43b581" selected>Green</option>
                 <option value="#7289da">Blue</option>
@@ -24,7 +24,7 @@
                 <option value="white">White</option>
             </select>
             <label for="text-color-input">Text color</label>
-            <select id="text-color-input" onchange="showDiv();">
+            <select id="text-color-input" onchange="render();">
                 <option value="#f04747">Red</option>
                 <option value="#43b581">Green</option>
                 <option value="#7289da">Blue</option>
@@ -32,7 +32,7 @@
                 <option value="white" selected>White</option>
             </select>
             <label for="border-input">Border color</label>
-            <select id="border-input" onchange="showDiv();">
+            <select id="border-input" onchange="render();">
                 <option value="3px solid #f04747">Red</option>
                 <option value="3px solid #43b581">Green</option>
                 <option value="3px solid #7289da">Blue</option>
@@ -41,9 +41,10 @@
                 <option value="none" selected>None</option>
             </select>
             <label for="radius-input">Box radius</label>
-            <input id="radius-input" type="range" min="0" max="100" step="10" oninput="showDiv();"/>
+            <input id="radius-input" type="range" min="0" max="100" step="10" oninput="render();"/>
             <label for="skew-input">Skew box</label>
-            <input id="skew-input" type="range" min="0" max="180" step="10" value="0" oninput="showDiv();"/>
+            <input id="skew-input" type="range" min="0" max="180" step="10" value="0" oninput="render();"/>
+            <div id="text-output" class="code"></div>
         </div>
     </div>
     <script src="./script.js"></script>
