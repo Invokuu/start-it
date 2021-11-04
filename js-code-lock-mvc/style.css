@@ -1,0 +1,54 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2e3136;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.code-lock {
+  background-color: #424549;
+  display: grid;
+  grid-template: repeat(5, 60px) / repeat(3, 60px);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.pin,
+button {
+  margin: 2px;
+  font-size: 1.2em;
+  background-color: white;
+}
+
+.pin {
+  grid-column: 1 / span 3;
+  padding: 15px;
+  overflow: hidden;
+  border: 3px solid #43b581;
+  color: #43b581;
+  border-radius: 100px;
+  font-family: monospace, sans-serif;
+  outline: none;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  border: 3px solid #7289da;
+  color: #7289da;
+  border-radius: 100%;
+  font-family: Tahoma, sans-serif;
+}
+
+button:disabled {
+  border: 3px solid #99aab5;
+  color: #99aab5;
+  cursor: default;
+}
