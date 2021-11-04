@@ -39,6 +39,7 @@ I've listed the tasks below as demos in the order I've done them.
 19. [js-guess-word-mvc](https://invokuu.github.io/modul1/js-guess-word-mvc/)
 20. [js-clicker-game](https://invokuu.github.io/modul1/js-clicker-game/) (Moodle ID: 420)
 21. [js-code-lock-mvc](https://invokuu.github.io/modul1/js-code-lock-mvc/) (Moodle ID: 493)
+22. [js-calculator-mvc](https://invokuu.github.io/modul1/js-calculator-mvc/) (Moodle ID: 461)
 
 [comment]: # "parse.stop"
 
