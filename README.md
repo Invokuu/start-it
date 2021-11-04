@@ -2,7 +2,7 @@
 
 Collection of module 1 tasks given by school.
 
-I've listed the tasks below as demos in the order I've done them.
+I've listed the assignments that I've done below.
 
 [comment]: # "parse.start"
 
