@@ -12,6 +12,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  user-select: none;
 }
 
 .container {
@@ -35,6 +36,7 @@ body {
 .result {
   background-color: white !important;
   color: black;
+  overflow: hidden;
 }
 
 .container > div:not(.result) {
