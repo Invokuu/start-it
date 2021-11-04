@@ -39,6 +39,6 @@ function clearResult() {
 }
 
 function calculate() {
-    result = eval(result.replace('×', '*').replace('÷', '/')).toString();
+    result = eval(result.replaceAll('×', '*').replaceAll('÷', '/')).toString();
     render();
 }

@@ -1,7 +1,8 @@
-const app = document.getElementById('app');
+const app = document.getElementById('app'),
+      secretCode = '4389';
 
 // Model
-let pinCode = '';
+let pinCode = '# to test';
 
 // View
 function render() {
@@ -18,13 +19,23 @@ function render() {
     <button onclick="pin(9)">9</button>
     <button disabled>*</button>
     <button onclick="pin(0)">0</button>
-    <button disabled>#</button>`;
+    <button onclick="check();">#</button>`;
 }
 
 render();
 
 // Controller
 function pin(num) {
+    if (isNaN(parseInt(pinCode))) pinCode = '';
     pinCode += num;
+    render();
+}
+
+function check() {
+    if (pinCode === secretCode) {
+        pinCode = 'Open';
+    } else {
+        pinCode = 'Wrong';
+    }
     render();
 }

@@ -1,0 +1,86 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2e3136;
+  min-height: 100vh;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.container {
+  padding: 20px;
+  background-color: #424549;
+  border-radius: 5px;
+  display: grid;
+  grid-template: repeat(7, auto) / 1fr;
+}
+
+.texts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #4a4c51;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+p,
+del,
+span {
+  margin: 5px;
+  text-align: center;
+}
+
+input[type="text"] {
+  border-radius: 5px;
+  font-family: inherit;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 5px;
+}
+
+button {
+  background-color: #7289da;
+  border-radius: 5px;
+  font-family: inherit;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  transition: box-shadow 0.1s;
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 5px;
+}
+
+button:active {
+  box-shadow: inset 0 0 5px #1e2124;
+}
+
+.negative {
+  background-color: #f04747 !important;
+}
+
+.positive {
+  background-color: #43b581 !important;
+}
+
+del,
+.negative-text {
+  color: #f04747 !important;
+}
+
+span,
+.positive-text {
+  color: #43b581 !important;
+}

@@ -5,7 +5,7 @@ let output = document.getElementById('output'),
     colorInput = document.getElementById('color-input'),
     textColorInput = document.getElementById('text-color-input'),
     borderInput = document.getElementById('border-input'),
-    radiusInput = document.getElementById('radius-input');
+    radiusInput = document.getElementById('radius-input'),
     skewInput = document.getElementById('skew-input');
 
 function render() {
