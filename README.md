@@ -48,6 +48,7 @@ I've listed the assignments that I've done below.
    5. [js-guess-number-mvc](https://invokuu.github.io/modul1/js-guess-number-mvc/) (ID: 368)
    6. [js-compare-mvc](https://invokuu.github.io/modul1/js-compare-mvc/) (ID: 369)
    7. [js-code-lock-mvc](https://invokuu.github.io/modul1/js-code-lock-mvc/) (ID: 369)
+   8. [js-colors-mvc](https://invokuu.github.io/modul1/js-colors-mvc/) (ID: 373)
 
 [comment]: # "parse.stop"
 

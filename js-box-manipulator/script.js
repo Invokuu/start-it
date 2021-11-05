@@ -17,7 +17,7 @@ function render() {
     border: ${borderInput.value};
     border-radius: ${radiusInput.value}px;
     transform: skew(${skewInput.value}deg);
-    "><div>${textInput.value}</div></div>`;
+    ">${textInput.value}</div>`;
     textOutput.innerText = output.innerHTML.replaceAll('\n', '');
 }
 

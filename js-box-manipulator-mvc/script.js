@@ -64,7 +64,7 @@ function getBoxView() {
     border: ${borderInput};
     border-radius: ${radiusInput}px;
     transform: skew(${skewInput}deg);
-    "><div>${textInput}</div></div>`;
+    ">${textInput}</div>`;
 }
 
 function getBoxViewText() {
