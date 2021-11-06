@@ -1,0 +1,38 @@
+Say how much the customer has to pay
+Ask how the customer wants to pay
+
+if (Cash) {
+  
+  Take paid
+  
+  if (Cash == Price) {
+    
+    Say thanks
+    
+  } else {
+    
+    Give back excess
+    
+    Say thanks
+    
+  }
+  
+} else if (Card) {
+  
+  Type price into terminal
+  
+  Ask customer to finish payment
+  
+  Say thanks
+  
+} else if (Vipps) {
+  
+  Give customer Vipps number
+  
+  Ask customer to pay in Vipps
+  
+  See customer's receipt
+  
+  Say thanks
+  
+}
