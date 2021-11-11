@@ -31,7 +31,7 @@ I've listed the assignments that I've done below.
    4. [svg-ludo](https://invokuu.github.io/modul1/svg-ludo/) (ID: 358)
 4. Moodle Week 2
    1. [js-onclick](https://invokuu.github.io/modul1/js-onclick/) (ID: 359)
-   2. [js-event-handlers](https://invokuu.github.io/modul1/js-event-handlers/) (ID: 360)
+   2. [js-event-handlers](https://invokuu.github.io/modul1/js-event-handlers/) (ID: 360 & 375)
    3. [js-this](https://invokuu.github.io/modul1/js-this/) (ID: 361)
    4. [js-code-lock](https://invokuu.github.io/modul1/js-code-lock/) (ID: 362)
    5. [js-time-check](https://invokuu.github.io/modul1/js-time-check/) (ID: 363)
