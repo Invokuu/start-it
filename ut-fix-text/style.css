@@ -1,0 +1,17 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #36393e;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#qunit {
+    box-shadow: 0 0 3px #282b30;
+    border-radius: 5px;
+}
