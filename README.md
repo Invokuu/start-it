@@ -55,6 +55,7 @@ I've listed the assignments that I've done below.
 6. Moodle Week 4
    1. [js-clicker-game-2](https://invokuu.github.io/modul1/js-clicker-game-2/) (ID: 530)
    2. [ut-fix-text](https://invokuu.github.io/modul1/ut-fix-text/) (ID: 471)
+   3. [ut-email-check](https://invokuu.github.io/modul1/ut-email-check/) (ID: 472)
 
 [comment]: # "parse.stop"
 
