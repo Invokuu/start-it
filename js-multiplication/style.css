@@ -1,0 +1,45 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  padding-top: 30px;
+  background-color: #2e3136;
+  min-height: 100vh;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.range-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  padding: 0 10px;
+  background-color: #424549;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.range-box input {
+  width: 100%;
+}
+
+#matrix {
+  display: grid;
+  grid-gap: 5px;
+  margin: 5px;
+}
+
+#matrix div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #424549;
+  border-radius: 5px;
+}
