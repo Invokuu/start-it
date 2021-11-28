@@ -20,12 +20,12 @@ body {
   background-color: #424549;
   border-radius: 5px;
   display: grid;
-  grid-template: repeat(3, 100px) / repeat(3, 100px);
+  grid-template: repeat(3, 100px) auto / repeat(3, 100px);
   grid-gap: 10px;
   position: relative;
 }
 
-.container div {
+.container div:not(.moves) {
   line-height: 100px;
   text-align: center;
   font-size: 2em;
@@ -45,4 +45,12 @@ body {
   align-items: center;
   justify-content: center;
   cursor: default;
+}
+
+.moves {
+  grid-column: span 3;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #36393e;
+  padding: 5px;
 }

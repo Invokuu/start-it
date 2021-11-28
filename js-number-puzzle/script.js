@@ -1,11 +1,12 @@
 const app = document.getElementById('app');
 
 // Model
-let board = [3, 5, 6, 8, 1, 0, 2, 4, 7], boardWidth = 3, boardSize = boardWidth * boardWidth, win = false;
+let board = [3, 5, 6, 8, 1, 0, 2, 4, 7], boardWidth = 3, boardSize = boardWidth * boardWidth, win = false, count = 0;
 
 // View
 function render() {
     app.innerHTML = board.map((v, i) => `<div onclick="clickNumber(${i});">${v ? v : ''}</div>`).join('\n');
+    app.innerHTML += `\n<div class="moves">Move count: ${count}</div>`;
     if (win) app.innerHTML += `\n<div class="overlay"><h3>You won!</h3></div>`;
 }
 
@@ -15,6 +16,7 @@ render();
 function clickNumber(index) {
     let blankIndex = findBlankIndex(index);
     if (blankIndex === null) return;
+    count++;
     board[blankIndex] = board[index];
     board[index] = 0;
     win = checkWin();
