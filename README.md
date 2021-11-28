@@ -56,8 +56,10 @@ I've listed the assignments that I've done below.
    1. [js-clicker-game-2](https://invokuu.github.io/modul1/js-clicker-game-2/) (ID: 530)
    2. [ut-fix-text](https://invokuu.github.io/modul1/ut-fix-text/) (ID: 471)
    3. [ut-email-check](https://invokuu.github.io/modul1/ut-email-check/) (ID: 472)
-   4. [js-multiplication](https://invokuu.github.io/modul1/js-multiplication/) (ID: 463)
-   5. [js-tic-tac-toe](https://invokuu.github.io/modul1/js-tic-tac-toe/) (ID: 390)
+7. Moodle Week 5
+   1. [js-multiplication](https://invokuu.github.io/modul1/js-multiplication/) (ID: 463)
+   2. [js-tic-tac-toe](https://invokuu.github.io/modul1/js-tic-tac-toe/) (ID: 390)
+   3. [js-number-puzzle](https://invokuu.github.io/modul1/js-number-puzzle/) (ID: 430)
 
 [comment]: # "parse.stop"
 
