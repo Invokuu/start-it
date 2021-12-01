@@ -60,6 +60,7 @@ I've listed the assignments that I've done below.
    1. [js-multiplication](https://invokuu.github.io/modul1/js-multiplication/) (ID: 463)
    2. [js-tic-tac-toe](https://invokuu.github.io/modul1/js-tic-tac-toe/) (ID: 390)
    3. [js-number-puzzle](https://invokuu.github.io/modul1/js-number-puzzle/) (ID: 430)
+   4. [js-reaction-time](https://invokuu.github.io/modul1/js-reaction-time/) (ID: 491)
 
 [comment]: # "parse.stop"
 
