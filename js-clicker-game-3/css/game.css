@@ -1,0 +1,111 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2e3136;
+  min-height: 100vh;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 20px;
+  background-color: #424549;
+  border-radius: 5px;
+  display: grid;
+  grid-template: repeat(5, auto) / repeat(2, 200px);
+  overflow: hidden;
+}
+
+.clicker {
+  grid-column: span 2;
+  text-align: center;
+  user-select: none;
+  font-size: 8em;
+  cursor: pointer;
+}
+
+button {
+  background-color: #7289da;
+  border-radius: 5px;
+  font-family: inherit;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  transition: box-shadow 0.1s, background-color 0.3s;
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 5px;
+  grid-column: span 2;
+}
+
+button:disabled {
+  background-color: #2e3136;
+  cursor: default;
+}
+
+.message {
+  color: #f04747;
+  text-align: center;
+  grid-column: span 2;
+}
+
+button:active {
+  box-shadow: inset 0 0 5px #1e2124;
+}
+
+button:first-child {
+  margin-top: 25px;
+}
+
+.red {
+  background-color: #f44336;
+  grid-column: span 1;
+}
+
+.points {
+  text-align: center;
+  font-size: 2em;
+  grid-column: 1 / span 2;
+  color: #43b581;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.timer {
+  text-align: center;
+  font-size: 2em;
+  grid-column: 1 / span 2;
+  color: #7289da;
+}
+
+table {
+  grid-column: span 2;
+}
+
+table th {
+  background-color: #2e3136;
+  border-radius: 5px;
+}
+
+table td {
+  width: 50%;
+  text-align: center;
+}
+
+.unit-tests {
+  color: #faa61a;
+  text-decoration: none;
+  background-color: #424549;
+  padding: 5px;
+  border-radius: 5px 0 0 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}

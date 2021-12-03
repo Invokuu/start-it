@@ -12,6 +12,7 @@ I've listed the assignments that I've done below.
    3. [js-guess-word](https://invokuu.github.io/modul1/js-guess-word/) (21/10/29->21/11/02)
    4. [js-guess-word-mvc](https://invokuu.github.io/modul1/js-guess-word-mvc/) (21/11/02->21/11/05)
    5. [js-clicker-game-2](https://invokuu.github.io/modul1/js-clicker-game-2/) (->21/11/12)
+   6. [js-clicker-game-3](https://invokuu.github.io/modul1/js-clicker-game-3/) (->21/12/03)
 2. [css-battle](https://cssbattle.dev/battle/1)
    1. [Simply Square](https://invokuu.github.io/modul1/css-battle/1-simply-square.html) [(CSSBattle)](https://cssbattle.dev/play/1)
    2. [Carrom](https://invokuu.github.io/modul1/css-battle/2-carrom.html) [(CSSBattle)](https://cssbattle.dev/play/2)
@@ -61,6 +62,8 @@ I've listed the assignments that I've done below.
    2. [js-tic-tac-toe](https://invokuu.github.io/modul1/js-tic-tac-toe/) (ID: 390)
    3. [js-number-puzzle](https://invokuu.github.io/modul1/js-number-puzzle/) (ID: 430)
    4. [js-reaction-time](https://invokuu.github.io/modul1/js-reaction-time/) (ID: 491)
+8. Moodle Week 7
+   1. [js-clicker-game-3](https://invokuu.github.io/modul1/js-clicker-game-3/) (ID: 551)
 
 [comment]: # "parse.stop"
 
