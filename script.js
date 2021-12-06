@@ -92,6 +92,13 @@ getUser('Invokuu')
                                     linkView.href = `https://invokuu.github.io/start-it/${module.name}/${task.name}/`;
                                     itemView.appendChild(linkView);
                                     tasksView.appendChild(itemView);
+                                    getJSON(`https://raw.githubusercontent.com/Invokuu/start-it/main/${module.name}/${task.name}/meta.json`)
+                                        .then(meta => {
+                                            linkView.innerHTML = '';
+                                            if ('name' in meta) linkView.innerHTML += meta.name;
+                                            if ('desc' in meta) linkView.innerHTML += '<br>' + meta.desc;
+                                        })
+                                        .catch(err => console.error('No meta file'));
                                 });
                             })
                             .catch(err => console.error(err));
