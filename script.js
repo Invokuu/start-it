@@ -36,6 +36,16 @@ function getJSON(url) {
     return request({ method: 'GET', url, json: true });
 }
 
+function updateTexts(url, view) {
+    getJSON(url)
+        .then(meta => {
+            view.innerHTML = '';
+            if ('name' in meta) view.innerHTML += meta.name;
+            if ('desc' in meta) view.innerHTML += '<br>' + meta.desc;
+        })
+        .catch(err => console.error('No meta file'));
+}
+
 // Different shorthand functions
 function getUser(user) {
     return getJSON(`https://api.github.com/users/${user}`);
@@ -92,13 +102,7 @@ getUser('Invokuu')
                                     linkView.href = `https://invokuu.github.io/start-it/${module.name}/${task.name}/`;
                                     itemView.appendChild(linkView);
                                     tasksView.appendChild(itemView);
-                                    getJSON(`https://raw.githubusercontent.com/Invokuu/start-it/main/${module.name}/${task.name}/meta.json`)
-                                        .then(meta => {
-                                            linkView.innerHTML = '';
-                                            if ('name' in meta) linkView.innerHTML += meta.name;
-                                            if ('desc' in meta) linkView.innerHTML += '<br>' + meta.desc;
-                                        })
-                                        .catch(err => console.error('No meta file'));
+                                    updateTexts(`https://raw.githubusercontent.com/Invokuu/start-it/main/${module.name}/${task.name}/meta.json`, linkView);
                                 });
                             })
                             .catch(err => console.error(err));
