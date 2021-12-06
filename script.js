@@ -57,7 +57,8 @@ function getReadMe(element, url) {
 
 const avatar = document.getElementById('avatar'),
       username = document.getElementById('username'),
-      bio = document.getElementById('bio');
+      bio = document.getElementById('bio'),
+      projects = document.getElementById('dynamic-content');
 
 avatar.addEventListener('load', () => avatar.classList.add('loaded'));
 
@@ -68,14 +69,36 @@ getUser('Invokuu')
         username.classList.add('loaded');
         bio.textContent = user.bio;
         bio.classList.add('loaded');
-        /*getFiles(user.login, 'modul1')
-            .then(files => {
-                files.forEach(file => {
-                    if (file.type === 'dir') {
-                        console.info('Assignment:', file.name);
+        getFiles(user.login, 'start-it')
+            .then(modules => {
+                modules.forEach(module => {
+                    if (module.type === 'dir') {
+                        const moduleView = document.createElement('section'),
+                              containerView = document.createElement('div'),
+                              titleView = document.createElement('h3');
+                              tasksView = document.createElement('ul');
+                        moduleView.classList.add('d-gray');
+                        containerView.classList.add('container');
+                        titleView.textContent = module.name.toUpperCase().replaceAll(/\-/gm, ' ');
+                        containerView.appendChild(titleView);
+                        containerView.appendChild(tasksView);
+                        moduleView.appendChild(containerView);
+                        getFiles(user.login, 'start-it', module.name)
+                            .then(tasks => {
+                                tasks.forEach(task => {
+                                    const itemView = document.createElement('li')
+                                          linkView = document.createElement('a');
+                                    linkView.textContent = task.name;
+                                    linkView.href = `https://invokuu.github.io/start-it/${module.name}/${task.name}/`;
+                                    itemView.appendChild(linkView);
+                                    tasksView.appendChild(itemView);
+                                });
+                            })
+                            .catch(err => console.error(err));
+                        projects.appendChild(moduleView);
                     }
                 });
             })
-            .catch(err => console.error(err));*/
+            .catch(err => console.error(err));
     })
     .catch(err => console.error(err));
