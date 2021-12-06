@@ -4,21 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module 1</title>
-    <link rel="stylesheet" href="./style.css"/>
-    <script src="https://cdn.invoku.net/library/js/loader.js" defer></script>
+    <title>GitHub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.invoku.net/library/css/colors.css"/>
+    <link rel="stylesheet" href="./github.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+    <script src="./github.js" defer></script>
 </head>
-<body class="simple-layout">
-    <header>
-        <h1>Module 1</h1>
-    </header>
-    <main>
-        <div class="box" id="list-container">
-
-        </div>
+<body>
+    <main class="full-size d-gray background-wrapper">
+        <img class="background-image" src="https://cdn.invoku.net/defaults/wallpaper.jpg" alt="wallpaper"/>
+        <article class="background-content">
+            <img id="avatar" class="loadable" alt="avatar"/>
+            <h3 id="username" class="loadable"></h3>
+            <p id="bio" class="loadable"></p>
+        </article>
     </main>
-    <footer>
-        <p>Took <span id="time">...</span> to load list from README.md</p>
-    </footer>
+    <!--
+    <div id="dynamic-content">
+        <section class="d-gray">
+            <div class="container">
+                
+            </div>
+        </section>
+    </div>
+    -->
 </body>
 </html>
